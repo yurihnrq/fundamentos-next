@@ -11,9 +11,9 @@ const JSX = _ => {
     
     return (
         <Layout title={title}>
-            <div>
+            <section>
                 {subtitle()}
-            </div>
+            </section>
         </Layout>
     )
 }

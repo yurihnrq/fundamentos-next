@@ -4,11 +4,11 @@ import Layout from '../components/Layout'
 const Style = _ => {
     return (
         <Layout title="CSS Modules">
-            <div className={styles.red}>
+            <section className={styles.red}>
                 <p>
-                    Estilos CSS podem ser aplicados individualmente nos componentes.
+                    Estilos CSS podem ser aplicados insectionidualmente nos componentes.
                 </p>
-            </div>
+            </section>
         </Layout>
     )
 }
