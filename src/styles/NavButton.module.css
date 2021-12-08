@@ -1,8 +1,7 @@
-.navbutton a {
+.navbutton {
     color: #EEE;
     background-color: #444;
     
-    width: 60px;
     text-align: center;
     padding: 4px 10px;
     margin: 0px 5px;
@@ -11,11 +10,13 @@
     border: 1px solid #444;
 
     transition: all ease-in-out 0.1s;
+
+    cursor: pointer;
 }
 
-.navbutton a:hover {
+.navbutton:hover {
     color: #444;
     background-color: #EEE;
 }
 
-.navbutton a:active { background-color: #777; }
+.navbutton:active { background-color: #777; }

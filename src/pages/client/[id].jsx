@@ -1,6 +1,6 @@
 import Layout from '../../components/Layout';
 import { useRouter } from "next/router";
-import styles from '../../styles/Style.module.css';
+import styles from '../../styles/NavButton.module.css';
 
 
 const Client = _ => {

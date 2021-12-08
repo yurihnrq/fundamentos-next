@@ -11,6 +11,7 @@ const Layout = props => {
                 <NavButton link="/jsx" text="JSX"/>
                 <NavButton link="/style" text="Style"/>
                 <NavButton link="/navigation" text="Navegação"/>
+                <NavButton link="/apis" text="APIs"/>
             </Header>
             <Content>
                 {props.children}

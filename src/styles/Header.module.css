@@ -4,11 +4,13 @@
     color: #444;
     
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .header nav {
     display: flex;
+    margin: 10px;
     flex-direction: row;
 }
