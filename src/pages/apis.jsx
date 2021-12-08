@@ -42,7 +42,9 @@ const APIs = _ => {
                     </button>
                 </div>
                 {user != null ? (
-                    <div>
+                    <div style={{
+                        overflow: "auto"
+                    }}>
                         <p>
                             Usuário retornado:
                         </p>

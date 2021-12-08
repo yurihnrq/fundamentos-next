@@ -6,7 +6,7 @@ const Style = _ => {
         <Layout title="CSS Modules">
             <section className={styles.coral}>
                 <p>
-                    Estilos CSS podem ser aplicados insectionidualmente nos componentes.
+                    Estilos CSS podem ser aplicados inidualmente nos componentes.
                 </p>
             </section>
         </Layout>
