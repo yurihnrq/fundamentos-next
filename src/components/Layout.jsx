@@ -3,18 +3,20 @@ import Header from './Header';
 import Content from './Content';
 import styles from '../styles/Layout.module.css';
 
-const Layout = props => {
+const Layout = ({title, children}) => {
     return (
         <div className={styles.layout}>
-            <Header title={props.title}>
+            <Header title={title}>
                 <NavButton link="/" text="Inicio"/>
                 <NavButton link="/jsx" text="JSX"/>
                 <NavButton link="/style" text="Style"/>
                 <NavButton link="/navigation" text="Navegação"/>
                 <NavButton link="/apis" text="APIs"/>
+                <NavButton link="/ssr" text="SSR"/>
+                <NavButton link="/ssg" text="SSG"/>
             </Header>
             <Content>
-                {props.children}
+                {children}
             </Content>
         </div>
     )

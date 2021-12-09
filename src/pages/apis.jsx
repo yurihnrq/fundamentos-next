@@ -12,7 +12,7 @@ const APIs = _ => {
     const [ID, setID] = useState(0);
 
     const getUser = _ => {
-        fetch(`../api/users/${ID}`)
+        fetch(`./api/users/${ID}`)
             .then(res => res.json())
             .then(data => setUser(data));
     };
@@ -50,40 +50,44 @@ const APIs = _ => {
                         </p>
 
                         <table className={table.table}>
-                            <tr>
-                                <td>
-                                    ID
-                                </td>
-                                <td>
-                                    Nome
-                                </td>
-                                <td>
-                                    Idade
-                                </td>
-                                <td>
-                                    Estado
-                                </td>
-                                <td>
-                                    Email
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    {user.id}
-                                </td>
-                                <td>
-                                    {user.name}
-                                </td>
-                                <td>
-                                    {user.age}
-                                </td>
-                                <td>
-                                    {user.state}
-                                </td>
-                                <td>
-                                    {user.email}
-                                </td>
-                            </tr>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        ID
+                                    </td>
+                                    <td>
+                                        Nome
+                                    </td>
+                                    <td>
+                                        Idade
+                                    </td>
+                                    <td>
+                                        Estado
+                                    </td>
+                                    <td>
+                                        Email
+                                    </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        {user.id}
+                                    </td>
+                                    <td>
+                                        {user.name}
+                                    </td>
+                                    <td>
+                                        {user.age}
+                                    </td>
+                                    <td>
+                                        {user.state}
+                                    </td>
+                                    <td>
+                                        {user.email}
+                                    </td>
+                                </tr>
+                            </tbody>
                         </table>
                     </div>
                 ) : (
