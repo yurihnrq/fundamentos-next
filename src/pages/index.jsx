@@ -5,7 +5,7 @@ const Home = _ => {
         <Layout title="Next.js & React.js">
             <section>
                 <p>
-                    Next.js é um framework React.js que melhora a experiência do programador, trazendo sectionersas facilitações e funcionalidades que agilizam o desenvolvimento de aplicativos.
+                    Next.js é um framework React.js que melhora a experiência do programador, trazendo diversas facilitações e funcionalidades que agilizam o desenvolvimento de aplicativos.
                 </p>
                 <p>
                     Neste framework, grande parte da configuração de uma aplicação React.js deixa de ser procupação do programador.
